@@ -13,4 +13,5 @@ outputs:
 - name: project-dist
   path: dist
 
-run: build.sh
+run:
+  path: project-src/concourse/build.sh

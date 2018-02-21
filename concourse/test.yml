@@ -9,4 +9,5 @@ inputs:
 - name: project-src
 - name: project-src-cache
 
-run: build.sh
+run:
+  path: project-src/concourse/build.sh

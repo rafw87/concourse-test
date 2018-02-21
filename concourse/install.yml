@@ -11,4 +11,5 @@ inputs:
 outputs:
 - name: project-src-cache
 
-run: install.sh
+run:
+  path: project-src/concourse/install.sh
