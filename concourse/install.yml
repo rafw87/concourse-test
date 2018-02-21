@@ -12,5 +12,5 @@ outputs:
 - name: project-src-cache
 
 run:
-  path: project-src/concourse/install.sh
+  path: concourse/install.sh
   dir: project-src
