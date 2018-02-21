@@ -8,7 +8,6 @@ image_resource:
 inputs:
 - name: project-src
   path: .
-- name: node_modules
 
 outputs:
 - name: project-dist
