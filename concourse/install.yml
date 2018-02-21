@@ -9,6 +9,10 @@ inputs:
 - name: project-src
   path: .
 
+outputs:
+- name: project-src-install
+  path: .
+
 
 run:
   path: npm

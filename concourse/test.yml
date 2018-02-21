@@ -6,7 +6,7 @@ image_resource:
   source: {repository: node, tag: "6" }
 
 inputs:
-- name: install
+- name: project-src-install
   path: .
 
 run:
