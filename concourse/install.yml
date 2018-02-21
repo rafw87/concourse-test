@@ -9,9 +9,6 @@ inputs:
 - name: project-src
   path: .
 
-outputs:
-- name: node_modules
-
 
 run:
   path: npm
