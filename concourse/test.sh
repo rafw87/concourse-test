@@ -1,4 +1,4 @@
 #!/bin/sh
-mv project-src-cache/* project-src
+mv ../project-src-cache/* .
 npm install
 npm test
