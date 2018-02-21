@@ -6,9 +6,7 @@ image_resource:
   source: {repository: node, tag: "6" }
 
 inputs:
-- name: project-src-install
-  path: .
+- name: project-src
+- name: project-src-cache
 
-run:
-  path: npm
-  args: [ test ]
+run: build.sh
