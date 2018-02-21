@@ -7,13 +7,13 @@ image_resource:
 
 inputs:
 - name: project-src
-  path: .
 
 outputs:
 - name: project-src-install
-  path: .
+  path: project-src
 
 
 run:
   path: npm
   args: [ install ]
+  dir: project-src
