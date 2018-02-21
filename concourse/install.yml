@@ -13,3 +13,4 @@ outputs:
 
 run:
   path: project-src/concourse/install.sh
+  dir: project-src

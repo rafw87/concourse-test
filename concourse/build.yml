@@ -15,3 +15,4 @@ outputs:
 
 run:
   path: project-src/concourse/build.sh
+  dir: project-src
