@@ -8,9 +8,11 @@ image_resource:
 inputs:
 - name: project-src
   path: .
+
+outputs:
 - name: node_modules
 
 
 run:
   path: npm
-  args: [ test ]
+  args: [ install ]
