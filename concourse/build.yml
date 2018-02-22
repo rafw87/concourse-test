@@ -11,6 +11,8 @@ inputs:
 outputs:
 - name: project-dist
   path: project-working-dir/dist
+- name: project-package
+  path: project-working-dir/out
 
 run:
   path: concourse/build.sh
