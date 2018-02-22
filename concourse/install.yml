@@ -12,4 +12,4 @@ outputs:
 - name: project-working-dir
 
 run:
-  path: concourse/install.sh
+  path: project-src/concourse/install.sh
