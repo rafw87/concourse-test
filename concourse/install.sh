@@ -1,3 +1,3 @@
 #!/bin/sh
 npm install
-mv project-src/* project-working-dir
+mv * ../project-working-dir
