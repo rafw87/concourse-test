@@ -1,3 +1,3 @@
 #!/bin/sh
 npm run build-pack
-mv out/. ../project-package
+cp -Rp out/. ../project-package
