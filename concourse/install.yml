@@ -13,4 +13,3 @@ outputs:
 
 run:
   path: concourse/install.sh
-  dir: project-src
