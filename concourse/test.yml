@@ -6,9 +6,8 @@ image_resource:
   source: {repository: node, tag: "6" }
 
 inputs:
-- name: project-src
-- name: project-src-cache
+- name: project-working-dir
 
 run:
-  path: concourse/build.sh
-  dir: project-src
+  path: concourse/test.sh
+  dir: project-working-dir

@@ -9,7 +9,7 @@ inputs:
 - name: project-src
 
 outputs:
-- name: project-src-cache
+- name: project-working-dir
 
 run:
   path: concourse/install.sh
