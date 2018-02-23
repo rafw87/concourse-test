@@ -4,7 +4,7 @@ describe('Suite 1', function() {
 
     });
     it('test2', function() {
-
+        throw new Error("");
     });
   });
   describe('Suite 1.1', function() {
