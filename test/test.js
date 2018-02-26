@@ -4,7 +4,7 @@ describe('Suite 1', function() {
 
     });
     it('test2', function() {
-      console.log("test2 modified");
+      console.log("test2 modified v2");
     });
   });
   describe('Suite 1.1', function() {
